@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
     border: 20px solid black;
     border-bottom: 40px solid black;
+    border-top: 0;
 }
 
 .hero {
@@ -22,6 +23,7 @@ body {
 .hero2 {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .hero3 {
@@ -53,6 +55,12 @@ button {
     padding: 10px;
     border-radius: 10px;
     color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+button:hover {
+    background-color: #4caf50;
+    color: white;
 }
 
 
@@ -91,3 +99,13 @@ button {
     padding: 20px;
 }
 
+.bottom-blue-box {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    font-size: 24px;
+    border: 90px solid white;
+    padding: 50px;
+    color: #f9faf8;
+    border-radius: 20px;
+}
